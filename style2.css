@@ -169,7 +169,7 @@ main h2 {
 }
 
 main p {
-    color:#000000;
+    color:#E8E8E8;
     padding:1% 2%;
     font-size:1em;
 }
@@ -216,7 +216,7 @@ aside li {
 }
 
 aside a {
-  color:white;
+  color:black;
 }
 
 aside h2 {
@@ -244,6 +244,9 @@ footer p {
 
 section {
   grid-area:section;
+}
+section a {
+  color:white;
 }
 
 .fig1 {
