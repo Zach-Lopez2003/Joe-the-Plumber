@@ -1,0 +1,652 @@
+img {
+  max-width:100%;
+}
+
+body {
+  font-family: Verdana;
+  background: linear-gradient(to right, #280463, #1300e8);
+  margin:0;
+  padding:0;
+}
+
+header, nav, main, figure, article, footer, aside, givesback, askjoe, contact .fig2 {
+   border-radius:5px;
+}
+
+.answer_1 {
+  grid-area:answer_1;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.answer_2 {
+  grid-area:answer_2;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.answer_3 {
+  grid-area:answer_3;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.answer_4 {
+  grid-area:answer_4;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.answer_5 {
+  grid-area:answer_5;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.askjoe {
+  grid-area:askjoe;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+.givesback {
+  grid-area:givesback;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.contact {
+  grid-area:contact;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.serviceplans {
+  grid-area:serviceplans;
+  background:#FF6600;
+  color:#000000;
+  text-align:center;
+}
+
+.basicparts {
+  grid-area:basicparts;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.handyman {
+  grid-area:handyman;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+.hvac {
+  grid-area:hvac;
+  background:#0000FF;
+  color:#E8E8E8;
+  text-align:center;
+}
+
+header {
+    grid-area:header;
+    background:#FF6600;
+    text-align:center;
+}
+
+.headerpic {
+  grid-area:headerpic;
+  padding:5px;
+  height:10vmax;
+}
+
+.headertext {
+  grid-area:headertext;
+  text-align:center;
+}
+
+.headerwrapper {
+  display:grid;
+  justify-items:center;
+  align-items:center;
+  grid-template-columns:25% auto;
+  grid-template-areas:
+  "headerpic headertext";
+}
+
+header h1 {
+     font-size:5vw;
+     color:#000000;
+     font-family:Impact;
+     text-shadow: 2px 2px 5px #FFFFFF;
+     margin: 0;
+}
+
+header h3 {
+    font-size:3vw;
+    color:#000000;
+    text-shadow: 2px 2px 2px #FFFFFF;
+    margin:0;
+}
+nav {
+    grid-area:nav;
+    background:#FF6600;
+    }
+
+nav li {
+    padding:10px 10px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+nav a {
+    text-decoration:none;
+    color:#000000;
+}
+nav a:hover {
+    text-shadow: 2px 2px 5px #FFFFFF;
+}
+
+main {
+    grid-area:main;
+    background:#0000FF;
+    color:#E8E8E8;
+    padding:5px;
+    }
+
+main h2 {
+    text-align:center;
+    margin:1%;
+}
+
+main p {
+    color:#E8E8E8;
+    padding:1% 2%;
+    font-size:1em;
+}
+
+main a {
+ color:black;
+}
+
+figure {
+  margin:0;
+  text-align:center;
+}
+
+figcaption {
+  padding:5px;
+  color:#0000b0;
+  font-weight:bold;
+}
+
+figure img {
+  margin-top:16px;
+  max-width:20em;
+  border:2px solid #0000b0;
+}
+
+article {
+  text-align:center;
+  color:#FFFFFF;
+  background:#0000b0;
+  margin:2px;
+}
+
+aside {
+  grid-area:aside;
+  background-color:#FF6600;
+  text-align:center;
+}
+
+aside li {
+  color:#000000;
+  padding:10px 0;
+  font-size:1.25em;
+  text-align:left;
+}
+
+aside h2 {
+  color:#000000;
+}
+a {
+  color:#000000;
+}
+a:hover {
+  color: #FFFFFF;
+}
+
+footer {
+    grid-area:footer;
+    background:#0000FF;
+    padding:5px;
+    text-align:center;
+    }
+
+footer p {
+     font-size:1em;
+     color:#E8E8E8;
+     margin:0;
+}
+
+section {
+  grid-area:section;
+}
+
+.fig1 {
+  grid-area:fig1;
+}
+
+.fig2 {
+  grid-area:fig2;
+  background-color:#FFFFFF;
+}
+
+.top{
+  grid-area:top;
+}
+
+.middle{
+  grid-area:middle;
+}
+
+.bottom{
+  grid-area:bottom;
+}
+
+audio {
+ max-width: 100%;
+}
+
+video {
+  max-width:  100%;
+  height:auto;
+}
+
+.video, .audio {
+    margin:0;
+    display: grid;  /*This needs to be set or it won't center*/
+    justify-content:space-around;
+}
+
+
+form {
+    background-color:#080C91;
+    width:90%;
+    margin:auto;
+    color:white;
+    padding:10px;
+}
+
+input {
+  margin: 1px 0 10px 0;
+}
+
+.call {
+    border-radius:5px;
+    text-align:center;
+    background-color:#0000b0;
+    width:60%;
+    padding: 5px;
+    margin:10px auto 0 auto;
+}
+
+ .call p{
+    color:#ffffff;
+    font-size:1.5em;
+    padding:0;
+    margin:0;
+}
+
+.button {
+  padding:5px;
+  background-color:#a4c4fe;
+  text color:#0000b0;
+}
+
+/*---------------------------Mobile Layout----------------------------*/
+.container1 { /*for about.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "aside"
+    "main"
+    "givesback"
+    "footer";
+    }
+    
+.container2 { /*for index.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "aside"
+    "main"
+    "givesback"
+    "contact"
+    "footer";
+    }
+    
+.container3 { /*for service.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "aside"
+    "main"
+    "serviceplans"
+    "givesback"
+    "footer";
+    }
+    
+.container4 { /*for plan.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "aside"
+    "main"
+    "basicparts"
+    "handyman"
+    "hvac"
+    "givesback"
+    "footer";
+    }
+    
+.container5 { /*for askjoe.html*/
+display:grid;
+grid-template-columns:100%;
+grid-gap:.5em;
+margin:1%;
+grid-template-areas:
+"header"
+"nav"
+"aside"
+"main"
+"answer1"
+"answer2"
+"answer3"
+"answer4"
+"answer5"
+"footer"
+
+}
+
+.container6 { /*for contact.html*/
+display:grid;
+grid-template-columns:100%;
+grid-gap:.5em;
+margin:1%;
+grid-template-areas:
+"header"
+"nav"
+"main"
+"contact"
+"footer"
+}
+    
+ .nestedgrid {
+display:grid;
+grid-template-columns:100%;
+grid-template-areas:
+"section"
+"fig1";
+    }
+    
+/*This stuff is for the hamburger menu*/
+.toggleNav {
+    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:10px;
+    }
+
+#flex-nav ul {
+    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
+    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
+    display:grid;
+    }
+    
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+    }
+
+
+/*-----------------------Tablet Media Query------------------------*/
+@media only screen and (min-width: 480px)  {
+.container1 { /*for about.html*/
+  grid-template-columns:50% 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "aside aside"
+    "givesback givesback"
+    "footer footer";
+    }
+    
+.container2 { /*for index.html*/
+  display: grid;
+  grid-template-columns:50% 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav aside"
+    "main main"
+    "serviceplans serviceplans"
+    "basicparts basicparts"
+    "handyman handyman"
+    "hvac hvac"
+    "givesback givesback"
+    "contact contact"
+    "footer footer";
+    }
+    
+.container3 { /*for service.html*/
+  display: grid;
+  grid-template-columns:50% 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav aside"
+    "main main"
+    "serviceplans serviceplans"
+    "givesback givesback"
+    "footer footer";
+    }
+    
+.container4 { /*plan.html*/
+display:grid;
+grid-template-columns:50% 1fr;
+grid-gap:.5em;
+margin:1%;
+grid-template-areas:
+"header header"
+"nav aside"
+"main main"
+"basicparts basicparts"
+"handyman handyman"
+"hvac hvac"
+"givesback givesback"
+"footer footer";
+    }
+    
+.container5 { /*for askjoe.html*/
+display:grid;
+grid-template-columns:50% 1fr;
+grid-template-areas:
+"header header"
+"nav aside"
+"main main"
+"answer1 answer1"
+"answer2 answer2"
+"answer3 answer3"
+"answer4 answer4"
+"answer5 answer5"
+"footer footer"
+}
+
+.container6 { /*for contact.html*/
+display:grid;
+grid-template-columns:50% 1fr;
+grid-template-areas:
+"header header"
+"nav main"
+"contact contact"
+"footer footer"
+}
+
+.nestedgrid {
+display:grid;
+grid-template-columns:100%;
+grid-template-areas:
+"section"
+"fig1";
+    }
+    
+.nestedgrid2 {
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-areas:
+  "section"
+  "div1"
+  "div2";
+}
+
+/* Below will change from hamburger menu to side navigation*/
+  
+.toggleNav {
+    display: none; /*Makes the hamburger icon with the word "Menu" to disappear at this screen size*/
+  }
+  
+#flex-nav ul {
+    display:grid;
+    text-align:left;
+  }
+
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+  }
+
+}
+
+/*-----------------------Desktop Media Query------------------------*/
+@media only screen and (min-width: 960px)  {
+.container1 { /*for about.html*/
+  grid-template-columns:auto 1fr 25%;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "givesback givesback givesback"
+    "footer footer footer";
+    }
+    
+.container2 { /*for index.html*/
+  display: grid;
+  grid-template-columns:auto 1fr 25%;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "givesback givesback givesback"
+    "contact contact contact"
+    "footer footer footer";
+    }
+
+.container3 { /*for service.html*/
+  display: grid;
+  grid-template-columns:auto 1fr 25%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "serviceplans serviceplans serviceplans"
+    "givesback givesback givesback"
+    "footer footer footer";
+    }
+
+.container4 { /*for plan.html*/
+display:grid;
+grid-template-columns:auto 1fr 25%;
+grid-template-areas:
+"header header header"
+"nav main aside"
+"basicparts basicparts basicparts"
+"handyman handyman handyman"
+"hvac hvac hvac"
+"givesback givesback givesback"
+"footer footer footer";
+    }
+    
+.container5 { /*for askjoe.html*/
+display:grid;
+grid-template-columns:auto 1fr 25%;
+grid-template-areas:
+"header header header"
+"nav main aside"
+"answer1 answer1 answer1"
+"answer2 answer2 answer2"
+"answer3 answer3 answer3"
+"answer4 answer4 answer4"
+"answer5 answer5 answer5"
+"footer footer footer"
+}
+
+.container6 { /*for contact.html*/
+display:grid;
+grid-template-columns:auto 1fr 25%;
+grid-template-areas:
+"header header header"
+"nav main main"
+"contact contact contact"
+"footer footer footer"
+}
+
+.nestedgrid {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-areas:
+"section fig1";
+  }
+
+.nestedgrid2 {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas:
+  "section section"
+  "div1 div2";
+}
