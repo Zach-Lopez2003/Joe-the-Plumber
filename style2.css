@@ -248,7 +248,9 @@ section {
 section a {
   color:white;
 }
-
+section h2 {
+  color:black;
+}
 .fig1 {
   grid-area:fig1;
 }
