@@ -169,13 +169,13 @@ main h2 {
 }
 
 main p {
-    color:#E8E8E8;
+    color:#000000;
     padding:1% 2%;
     font-size:1em;
 }
 
 main a {
- color:black;
+ color:white;
 }
 
 figure {
@@ -213,6 +213,10 @@ aside li {
   padding:10px 0;
   font-size:1.25em;
   text-align:left;
+}
+
+aside a {
+  color:white;
 }
 
 aside h2 {
@@ -385,11 +389,11 @@ grid-template-areas:
 "nav"
 "aside"
 "main"
-"answer1"
-"answer2"
-"answer3"
-"answer4"
-"answer5"
+"answer_1"
+"answer_2"
+"answer_3"
+"answer_4"
+"answer_5"
 "footer"
 
 }
@@ -511,11 +515,11 @@ grid-template-areas:
 "header header"
 "nav aside"
 "main main"
-"answer1 answer1"
-"answer2 answer2"
-"answer3 answer3"
-"answer4 answer4"
-"answer5 answer5"
+"answer_1 answer_1"
+"answer_2 answer_2"
+"answer_3 answer_3"
+"answer_4 answer_4"
+"answer_5 answer_5"
 "footer footer"
 }
 
@@ -618,11 +622,11 @@ grid-template-columns:auto 1fr 25%;
 grid-template-areas:
 "header header header"
 "nav main aside"
-"answer1 answer1 answer1"
-"answer2 answer2 answer2"
-"answer3 answer3 answer3"
-"answer4 answer4 answer4"
-"answer5 answer5 answer5"
+"answer_1 answer_1 answer_1"
+"answer_2 answer_2 answer_2"
+"answer_3 answer_3 answer_3"
+"answer_4 answer_4 answer_4"
+"answer_5 answer_5 answer_5"
 "footer footer footer"
 }
 
